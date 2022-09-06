@@ -1,0 +1,11 @@
+Marca: Volkswagen
+Modelo: Golf
+Año: 2018
+Color: Gris
+Tipo de combustible: Nafta
+Puertas: 5
+Transmisión: Automática
+Motor: 2.0
+Tipo de carrocería: Hatchback
+Kilómetros 43000 km
+U$S 39.000

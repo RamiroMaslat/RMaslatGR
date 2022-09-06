@@ -1,0 +1,11 @@
+Marca: Porsche
+Modelo: Boxster
+Año: 2015
+Color: Negro
+Tipo de combustible: Nafta
+Puertas: 2
+Transmisión: Manual
+Motor: 2.7
+Tipo de carrocería: Coupé
+Kilómetros 24000 km
+U$S 138.000

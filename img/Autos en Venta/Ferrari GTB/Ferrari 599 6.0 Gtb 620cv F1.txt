@@ -1,0 +1,11 @@
+Marca: Ferrari
+Modelo: 599
+Año: 2007
+Color: Negro
+Tipo de combustible: Nafta
+Puertas	2
+Transmisión: Automática
+Motor: 6.0
+Tipo de carrocería: Coupé
+Kilómetros: 26.000 km
+U$S 330.000

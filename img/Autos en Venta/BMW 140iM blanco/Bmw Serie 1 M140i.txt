@@ -1,0 +1,10 @@
+Marca: BMW
+Modelo: Serie 1
+Año: 2019
+Tipo de combustible: Nafta
+Puertas	5
+Transmisión: Automática
+Motor: 3.0
+Tipo de carrocería: Hatchback
+Kilómetros: 49000 km
+U$S 55.000

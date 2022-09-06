@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizá Tu Usado</title>
+    <link rel="stylesheet" href="../Style/Estilos.css" />
+</head>
+<body>
+    <div class="contenedorBody">
+        <header class="header">
+            <h1 class="header__title">
+                <img class="header__logo" src="/img/logo.png" alt="Logo de la Página" width="200" height="120">    
+            </h1>
+                
+            <nav class="header__barraDeNavegacion"> 
+                <ul class="header__barraDeNavegacion_listado">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./Vehiculos.html">Vehículos</a></li> 
+                    <li><a href="./CotizáTuUsado.html"> Cotizá tu usado</a></li>
+                    <li><a href="./QuienesSomos.html">Quiénes Somos</a></li>
+                    <li><a href="./Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>           
+        </header>
+        <Section class="ContenedorForm">
+
+            <h2 class="ContenedorForm__Titulo">Cotizá tu Usado</h2>
+
+            <form class="ContenedorForm__Formulario">
+                <fieldset class="ContenedorForm__Formulario_Fieldset">
+                    <legend>Completar el Formulario</legend>
+                    
+                    <label class="ContenedorForm__Formulario_Fieldset_Label" for="Marca" >Ingrese la Marca</label>
+                    <input class="ContenedorForm__Formulario_Fieldset_Input"  id="Marca" type="text" placeholder="Escriba la marca...">
+                    
+                    <label class="ContenedorForm__Formulario_Fieldset_Label"  for="Modelo">Ingrese el modelo</label>                                      
+                    <input class="ContenedorForm__Formulario_Fieldset_Input"  id="Modelo" type="text" placeholder="Escriba el modelo..."> 
+                   
+                    <label class="ContenedorForm__Formulario_Fieldset_Label" for="año">Ingrese el año</label>                                  
+                    <input class="ContenedorForm__Formulario_Fieldset_Input" id="año" type="number" placeholder="Escriba el año">         
+                        
+                    <label class="ContenedorForm__Formulario_Fieldset_Label"  for="kilometraje">Ingrese el kilometraje</label>                
+                    <input class="ContenedorForm__Formulario_Fieldset_Input" id=kilometraje type="number" placeholder="Escriba el kilometraje...">          
+                        
+                    
+                    <label class="ContenedorForm__Formulario_Fieldset_Label" for="informacion adicional">Informacion Adicional</label>
+                    <textarea class="ContenedorForm__Formulario_Fieldset_Label" name="consulta" id="informacion adicional" cols="30" rows="10"></textarea>
+
+                    <div class="TerminosYCondiciones">
+                        <input type="checkbox">
+                        <label>Aceptar términos y condiciones</label>   
+                    </div>
+
+                    <div class="FormButton">                             
+                        <input class="FormButton__Button" type="submit">   
+                    </div>                  
+                </fieldset>
+            </form>
+        </Section>
+        
+        <footer class="PieDePagina">
+            <div class="PieDePagina__Contenedor">
+                <a target="_blank" href="https://web.whatsapp.com/"><img class="PieDePagina__LogoRedSocial" src="../img/LogosRedSociales/whatsapp.png" alt="icono de whastapp"></a>
+                <a target="_blank" href="https://www.facebook.com/"><img class="PieDePagina__LogoRedSocial" src="../img/LogosRedSociales/fblogo.png" alt="icono de facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img class="PieDePagina__LogoRedSocial" src="../img/LogosRedSociales/iglogo.png" alt="icono de instagram"></a>
+
+                <p><strong>Dirección:</strong> Avenida Congreso y Avenida Cabildo // <strong> Teléfono:</strong> 15 8899 6666</p>
+                <p><strong>Todos los derechos reservados</strong></p>
+            </div>
+        </footer>  
+        
+        
+    </div>
+</body>
+
+</html>
