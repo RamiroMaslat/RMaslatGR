@@ -4,7 +4,7 @@ body {
     padding: 0px;
     box-sizing: border-box;
     background-color: black;
-    
+
 }
 .contenedorBody {
     display: flex;
@@ -14,13 +14,9 @@ body {
     background-image: url(/img/Fondos/fondogtrweb.jpg);
     background-attachment: fixed;
     background-position: left center;
-    background-repeat: no-repeat;
-    
-    
-    
-    
-   
+    background-repeat: no-repeat;               
 }
+
 /*Header*/
 .header {   
     display: flex;
@@ -32,24 +28,51 @@ body {
     background-size: 120rem 150%;
     background-repeat: no-repeat;
     border-bottom: 2px;
-    grid-area: header;   
-
+    grid-area: header;    
 }
+       
+
 
     .header__logo {        
-        padding: 0px; 
+        padding: 1px; 
         width: 20rem;
         height: 12rem;  
-        margin-bottom: 0;  
-        border: .2rem solid orangered;
-        border-radius: 10px;    
+        margin-bottom: -8px;       
+        border-radius: 10px;
+        transition: all 0.4s;    
     } 
 
-    .header__title {
-        margin: 1rem;
-        text-align: left;
+    .header__logo:hover {
+       width: 21rem;
+       height: 13rem; 
+    }   
+
+    .header__title {        
+        margin: 1rem;               
+        background-image: linear-gradient(100deg, orangered, orange, rgb(5, 92, 119), rgb(0, 10, 66), grey, rgb(123, 201, 247), orange, orangered);
+        padding: -0.5px;
+        border-radius: 10px;
+        animation: gradiente 20s linear infinite;   
     }
-    
+
+    @keyframes gradiente {
+        0% {
+            background-position: 0 0;
+        }
+        25% {
+            background-position: -20rem 0;
+        }
+        50% {
+            background-position: -40rem 0;            
+        }
+        75% {
+            background-position: -20rem 0;
+        }
+        100% {
+            background-position: 0 0;
+        }
+    }
+
     
     .header__barraDeNavegacion_listado {
         color: rgb(0, 0, 0);
@@ -67,8 +90,8 @@ body {
     display: inline;
     color: orangered;  
     margin: 1rem;
-   
     }
+   
 
     .header__barraDeNavegacion_listado li a {
         color: rgb(123, 201, 247);
@@ -76,7 +99,19 @@ body {
         text-decoration: none;
         font-size: 1rem;
         font-family: 'Caveat', cursive;
+        transition: all 0.5s;
+        cursor: pointer;
     }
+
+    .header__barraDeNavegacion_listado li a:hover {
+        color: black;
+        padding: 1px;
+        background-color: orangered;
+        font-size: 1.4rem; 
+        border: 2.5px solid rgb(5, 92, 119);
+        border-radius: 40px;  
+    }
+
 
 
 /*pagina principal index*/  
@@ -273,6 +308,14 @@ body {
             font-family: 'Caveat', cursive;
             color: orangered;
             text-decoration: solid;
+            cursor: pointer;
+            transition: all 0.3s
+        }
+        .FormButton__Button:hover {
+            font-size: 23px;
+            padding: 2px;
+            width: 80px;            
+            background-color: black;
         }
 
 .contenedorBodyQuienes {
@@ -354,8 +397,17 @@ grid-area: seccionQuienes;
     .PieDePagina__LogoRedSocial {
         width: 50px;
         height: 50px;
-        margin: 15px;        
+        margin: 15px;  
+        transition: border 0.2s, width 0.5s, height 0.5s;      
     
+    }
+
+    .PieDePagina__LogoRedSocial:hover {
+        width: 60px;
+        height: 60px;
+        border: 2px solid orangered;
+        border-radius: 30px;
+        
     }
 
 
@@ -380,13 +432,14 @@ grid-area: seccionQuienes;
     }
    .header__title {
     text-align: center;
+
    }
    
    .header__logo {       
     height: 9rem;
     width: 18rem;
     margin: 0px;
-    margin-top: 0.3em;
+    margin-bottom: -0.43rem;
    }
    
    
@@ -500,7 +553,7 @@ grid-area: seccionQuienes;
     .header {
         display: flex;
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
     }
 
     .header__title {
@@ -508,6 +561,8 @@ grid-area: seccionQuienes;
         align-items: center;
         justify-content: center;
         align-content: space-between;
+        width: 20.3rem;
+        height: 12.3rem;
     }
 
     .header__logo {
