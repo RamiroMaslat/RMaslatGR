@@ -503,9 +503,14 @@ grid-area: seccionQuienes;
    }
 
    /*COTIZA TU USADO*/
+   .ContenedorForm__Formulario_Fieldset {
+    width: 360px;
+    height: 550px;
+   }
 
    .ContenedorForm__Formulario_Fieldset_Input {
     padding: 8px;
+    width: 320px;
    }
 
    .ContenedorForm__Formulario_Fieldset_Label {
