@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    background-image: url(/img/Fondos/fondogtrweb.jpg);
+    background-image: url(../img/Fondos/fondogtrweb.jpg);
     background-attachment: fixed;
     background-position: left center;
     background-repeat: no-repeat;               
@@ -24,7 +24,7 @@ body {
     justify-content: space-between; 
     background-color: rgb(255, 255, 255);  
     background: none; 
-    background-image: url(/img/Fondos/fondoheader.jpg);     
+    background-image: url(../img/Fondos/fondoheader.jpg);     
     background-size: 120rem 150%;
     background-repeat: no-repeat;
     border-bottom: 2px;
