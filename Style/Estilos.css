@@ -503,6 +503,11 @@ grid-area: seccionQuienes;
    }
 
    /*COTIZA TU USADO*/
+
+   .ContenedorForm__Titulo {
+    font-size: 3.0rem;
+    margin-top: 2.2rem;
+   }
    .ContenedorForm__Formulario_Fieldset {
     width: 360px;
     height: 550px;
