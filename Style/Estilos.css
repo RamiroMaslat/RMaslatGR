@@ -37,7 +37,7 @@ body {
         padding: 1px; 
         width: 20rem;
         height: 12rem;  
-        margin-bottom: -8px;       
+        margin-bottom: 1px;       
         border-radius: 10px;
         transition: all 0.4s;    
     } 
@@ -126,6 +126,7 @@ body {
     "footer footer footer";
 
 }
+
 
 /* Seccion Principal*/
 
@@ -438,8 +439,7 @@ grid-area: seccionQuienes;
    .header__logo {       
     height: 9rem;
     width: 18rem;
-    margin: 0px;
-    margin-bottom: -0.43rem;
+    margin: 0px;    
    }
    
    
