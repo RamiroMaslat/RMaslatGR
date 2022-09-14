@@ -8,55 +8,95 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./Style/Estilos.css" />
 </head>
-<body>
-    <div class="contenedorBodyIndex">    
-        <header class="header">
-            <h1 class="header__title animacion">
-                <img class="header__logo" src="./img/logo.png" alt="Logo de la Página">        
-            </h1>            
-            <nav class="header__barraDeNavegacion"> 
-                <ul class="header__barraDeNavegacion_listado">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./Pages/Vehiculos.html">Vehículos</a></li> 
-                    <li><a href="./Pages/CotizáTuUsado.html"> Cotizá tu usado</a></li>
-                    <li><a href="./Pages/QuienesSomos.html">Quiénes Somos</a></li>
-                    <li><a href="./Pages/Contacto.html">Contacto</a></li>
-                </ul>
-            </nav>          
-        </header>                
-        <section class="SeccionPrincipal">
-            <img class="SeccionPrincipal__img" src="./img/Fondos/porsche.jpg"  alt="foto porsche">        
-            <div class="SeccionPrincipal__ParrafoImg">
-                <p>
-                    La versión Turbo incluye ruedas traseras auto direccionables que aumentan la estabilidad y maniobrabilidad en curvas. Cuenta con un bóxer trasero biturbo de 3,8 litros con turbinas VTG que desarrolla una potencia de 520 CV (513 HP; 382 kW), permitiéndole alcanzar los 100 km/h (62 mph) en 3,4 segundos y una velocidad máxima de 315 km/h (196 mph).
-                    <strong>
-                        Kilometraje: 25.000 Kms
-                        Año: 2020
-                        Precio: $220.000
-                    </strong> 
-                </p>
-            </div>
-            <div class="SeccionPrincipal__ContenedorMap">
-                <map class="SeccionPrincipal__Map">
-                    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=564&amp;height=305&amp;hl=en&amp;q=avenida cabildo y avenida congreso&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embedmapgenerator.com/">embed google maps in website</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:305px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:305px;}.gmap_iframe {height:305px!important;}</style></div>
-                </map>
-                <p class="SeccionPrincipal__Map_Parrafo"> 
-                    <strong> 
-                    Buscá el consecionario más cercano a tu casa!
-                    </strong>
-                </p>            
-            </div> 
+<body >
+    <div class="container-fluid">  
+        <section class="row"> 
+            <section class="col d-flex flex-column-reverse">
+                <header class="header justify-content-center"> 
+                    <h1 class="header__title animacion">
+                        <img class="header__logo" src="./img/logo.png" alt="Logo de la Página">        
+                    </h1>                                     
+                </header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+                    <div class="container-fluid">                          
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./Pages/Vehiculos.html">Vehiculos</a>
+                          </li>                         
+                          <li class="nav-item">
+                            <a class="nav-link" href="./Pages/CotizáTuUsado.html">Cotizá tu usado</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./Pages/QuienesSomos.html">Quienes somos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./Pages/Contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                </nav>        
+            </section> 
         </section>
-         
-        <footer class="PieDePagina">
-            <div class="PieDePagina__Contenedor">
-                <a target="_blank" href="https://web.whatsapp.com/"><img class="PieDePagina__LogoRedSocial" src="./img/LogosRedSociales/whatsapp.png" alt="icono de whastapp"></a>
-                <a target="_blank" href="https://www.facebook.com/"><img  class="PieDePagina__LogoRedSocial" src="./img/LogosRedSociales/fblogo.png" alt="icono de facebook"></a>
-                <a target="_blank" href="https://www.instagram.com/"><img class="PieDePagina__LogoRedSocial"  src="./img/LogosRedSociales/iglogo.png" alt="icono de instagram"></a>
-                <p><strong>Dirección:</strong> Avenida Congreso y Avenida Cabildo // <strong> Teléfono:</strong> 15 8899 6666</p>
-                <p><strong>Todos los derechos reservados</strong></p>
-            </div>
-        </footer>        
+    <section class="row d-flex justify-content-center m-auto">
+        <section class="col-sm-12 col-md-8 col-lg-8 d-none d-sm-block">   
+            <section class="SeccionPrincipal">
+                <img class="SeccionPrincipal__img text-center" src="./img/Fondos/porsche.jpg"  alt="foto porsche">        
+                <div class="SeccionPrincipal__ParrafoImg">
+                    <p>
+                        La versión Turbo incluye ruedas traseras auto direccionables que aumentan la estabilidad y maniobrabilidad en curvas. Cuenta con un bóxer trasero biturbo de 3,8 litros con turbinas VTG que desarrolla una potencia de 520 CV (513 HP; 382 kW), permitiéndole alcanzar los 100 km/h (62 mph) en 3,4 segundos y una velocidad máxima de 315 km/h (196 mph).
+                        <strong>
+                            Kilometraje: 25.000 Kms
+                            Año: 2020
+                            Precio: $220.000
+                        </strong> 
+                    </p>
+                </div>
+            </section>
+        </section>
+    </section>        
+        <section class="row justify-content-center m-auto">
+            <section class="col-sm-12 col-md-8 col-lg-6">
+                <div class="SeccionPrincipal__ContenedorMap">
+                    <div>
+                        <map class="SeccionPrincipal__Map">
+                            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=564&amp;height=305&amp;hl=en&amp;q=avenida cabildo y avenida congreso&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embedmapgenerator.com/">embed google maps in website</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:305px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:305px;}.gmap_iframe {height:305px!important;}</style></div>
+                        </map>
+                    </div>
+                    <p class="SeccionPrincipal__Map_Parrafo"> 
+                        <strong> 
+                            Buscá el consecionario más cercano a tu casa!
+                        </strong>
+                    </p>            
+                </div>
+            </section> 
+        </section>
+        
+        
+        <section class="row">
+            <section class="col">
+                <footer class="PieDePagina">
+                    <div class="PieDePagina__Contenedor text-center">
+                        <a target="_blank" href="https://web.whatsapp.com/"><img class="PieDePagina__LogoRedSocial" src="./img/LogosRedSociales/whatsapp.png" alt="icono de whastapp"></a>
+                        <a target="_blank" href="https://www.facebook.com/"><img  class="PieDePagina__LogoRedSocial" src="./img/LogosRedSociales/fblogo.png" alt="icono de facebook"></a>
+                        <a target="_blank" href="https://www.instagram.com/"><img class="PieDePagina__LogoRedSocial"  src="./img/LogosRedSociales/iglogo.png" alt="icono de instagram"></a>
+                        <p><strong>Dirección:</strong> Avenida Congreso y Avenida Cabildo // <strong> Teléfono:</strong> 15 8899 6666</p>
+                        <p><strong>Todos los derechos reservados</strong></p>
+                    </div>
+                </footer>
+            </section>
+        </section>         
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
