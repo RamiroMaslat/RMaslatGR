@@ -263,67 +263,44 @@ body {
             background-color: black;
         }
 
-.contenedorBodyQuienes {
-    display: grid;    
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.5fr 3fr 0.5fr;
-    grid-template-areas: 
-    "header header header"
-    "seccionQuienes seccionQuienes seccionQuienes"
-    "footer footer footer";
 
-}
 
     /*QUIENES SOMOS*/
+
+
 .ContenedorQuienes {
-margin-top: 80px;
-margin-bottom: 50px;
-grid-area: seccionQuienes;
-}
+    margin-top: 30px;
+} 
 
-  
-    .ContenedorQuienes__ParrafoVideo {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
-
-    
-    }
-        .ContenedorQuienes h2 {
-        display: flex;
-        flex-direction: column;
+    .ContenedorQuienes h2 {       
         font-family: 'robot', cursive;
         text-decoration: underline;
-        font-size: 50px;
+        font-size: 2.2rem;
         color: orangered;
         margin-bottom: 10px;
-}  
-    
-    .ContenedorQuienes__ParrafoVideo p {
-        display: flex;
-        align-items: center;
-        width: 600px;
-        height: 400px;
+        
+    }  
+     
+    .ContenedorQuienes__ParrafoVideo p {       
         font-family: 'caveat', cursive;
-        font-size: 35px;        
+        font-size: 1.8em;        
         color: azure;
         margin-bottom: 0px;
+        max-width: 55rem;
         
+    } 
+    .ContenedorQuienes__ParrafoVideo div {
+        margin-bottom: 30px;
     }
     .ContenedorQuienes__ParrafoVideo div h2 {
         margin-top: 0px;
     }
 
-    .ContenedorQuienes__ParrafoVideo iframe {
-        width: 50%;
-        height: 450px;
+    .ContenedorQuienes__ParrafoVideo iframe {      
         border-radius: 20px; 
         border: 1px solid orangered;    
             
-    }
+    } 
 
     /*Footers*/
 
