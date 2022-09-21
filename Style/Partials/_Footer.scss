@@ -1,0 +1,43 @@
+.PieDePagina {
+    color: white;
+    text-align: right;    
+    background-color: black;    
+    grid-area: footer;
+
+    .PieDePagina__Contenedor {
+        margin-right: 15px;  
+    }
+
+    .PieDePagina__LogoRedSocial {
+        width: 50px;
+        height: 50px;
+        margin: 15px;  
+        transition: border 0.2s, width 0.5s, height 0.5s; 
+        &:hover {
+            width: 60px;
+            height: 60px;
+            border: 2px solid $colorBorde;
+            border-radius: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .PieDePagina__Contenedor {
+        margin-right: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .PieDePagina__Contenedor {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .PieDePagina__Contenedor {
+        text-align: center;
+    }
+}

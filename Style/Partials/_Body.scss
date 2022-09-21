@@ -24,3 +24,41 @@ body {
         "footer footer footer";
     } 
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        .contenedorBody {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+        }
+        .contenedorBodyIndex {
+            display: flex;
+            flex-direction: column; 
+
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        .contenedorBody {
+            width: auto;
+        }
+        .contenedorBodyIndex {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        .contenedorBody {
+            width: auto;
+        }    
+    }
+}
+
+
+
