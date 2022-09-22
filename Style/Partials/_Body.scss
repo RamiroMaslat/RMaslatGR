@@ -23,6 +23,15 @@ body {
         "seccionIndex seccionIndex seccionIndex"
         "footer footer footer";
     } 
+    .contenedorBodyQuienes {
+        display: grid;    
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.5fr 3fr 0.5fr;
+        grid-template-areas: 
+        "header header header"
+        "seccionQuienes seccionQuienes seccionQuienes"
+        "footer footer footer";
+    }
 }
 
 @media screen and (max-width: 480px) {
