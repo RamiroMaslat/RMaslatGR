@@ -92,11 +92,11 @@ body .contenedorBodyQuienes {
   margin-bottom: 18px;
 }
 .SeccionPrincipal .SeccionPrincipal__ContenedorMap map .gmap_canvas {
-  width: 300px;
+  width: 100%;
+  margin: auto;
 }
 .SeccionPrincipal .SeccionPrincipal__ContenedorMap p {
   display: flex;
-  margin-right: 0;
   font-size: 35px;
   width: 500px;
   margin-right: 28px;
