@@ -1,0 +1,88 @@
+.SeccionPrincipal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 120rem;
+    margin-top: 10px;  
+    grid-area: seccionIndex;
+
+    .SeccionPrincipal__img {
+        width: 50vw;
+        border-radius: 20px;
+        border: 2px solid;
+        border-color: $colorBorde;
+    }
+
+    .SeccionPrincipal__ParrafoImg {
+        display: flex;
+        color: white;
+        text-align: center;
+        width: 400px;
+        margin: 0px;
+        font-family: 'Roboto', sans-serif;
+        font-size: .9rem;      
+    }
+
+    .SeccionPrincipal__ContenedorMap {
+        display: flex;
+        flex-direction: column-reverse;         
+        color: aliceblue; 
+        align-items: flex-end;
+        height: 26rem; 
+        margin: 4rem;
+
+        map {
+            display: flex;
+            width: 500px;
+            margin-left: 0px;
+            margin-right: 27px;
+            margin-bottom: 18px;
+
+            .gmap_canvas {
+                width: 300px;
+            }
+        }   
+        
+        p {
+            display: flex;
+            margin-right: 0;
+            font-size: 35px;
+            width: 500px;
+            margin-right: 28px; 
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: 'Caveat', cursive;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .SeccionPrincipal {
+        display: none; 
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .SeccionPrincipal__img {
+        height: 14rem;
+        width: 28rem;
+    }
+
+    .SeccionPrincipal__ContenedorMap {
+        width: auto;
+        margin: 5rem;
+        
+        map {
+            margin: 0px;
+            width: 26rem;
+        }
+
+        p {
+            width: 25rem;
+            margin: 0px;            
+        }
+    }
+}
+
+

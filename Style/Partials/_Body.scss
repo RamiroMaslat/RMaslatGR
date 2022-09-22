@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black; 
+     
+    .contenedorBody {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(/img/Fondos/fondogtrweb.jpg);
+        background-attachment: fixed;
+        background-position: left center;
+        background-repeat: no-repeat;
+    } 
+    .contenedorBodyIndex {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.5fr 3fr 0.5fr;
+        grid-template-areas: 
+        "header header header"
+        "seccionIndex seccionIndex seccionIndex"
+        "footer footer footer";
+    } 
+    .contenedorBodyQuienes {
+        display: grid;    
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.5fr 3fr 0.5fr;
+        grid-template-areas: 
+        "header header header"
+        "seccionQuienes seccionQuienes seccionQuienes"
+        "footer footer footer";
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        .contenedorBody {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+        }
+        .contenedorBodyIndex {
+            display: flex;
+            flex-direction: column; 
+
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        .contenedorBody {
+            width: auto;
+        }
+        .contenedorBodyIndex {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        .contenedorBody {
+            width: auto;
+        }    
+    }
+}
+
+
+

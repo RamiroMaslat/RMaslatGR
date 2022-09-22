@@ -254,8 +254,7 @@ body {
         display: flex;
         justify-content: space-around;
         font-size: 3.5rem;
-        text-decoration: underline;
-        
+        text-decoration: underline;        
         font-family: 'robot', cursive;
     }
 
@@ -670,8 +669,7 @@ grid-area: seccionQuienes;
         width: auto;
         height: auto;
         text-align: center;
-        font-size: 20px;
-        ;
+        font-size: 20px;        
         margin: 0px;
     }
 

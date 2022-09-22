@@ -1,0 +1,144 @@
+.ContenedorQuienes {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    grid-area: seccionQuienes;
+
+    .ContenedorQuienes__ParrafoVideo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        div {
+            h2 {
+                display: flex;
+                flex-direction: column;
+                font-family: 'robot', cursive;
+                text-decoration: underline;
+                font-size: 50px;
+                color: $colorBorde;
+                margin-top: 0px;
+                
+            }
+            p {
+                display: flex;
+                align-items: center;
+                width: 600px;
+                height: 400px;
+                font-family: 'caveat', cursive;
+                font-size: 35px;
+                margin-top: -30px;
+                color: azure;
+            }           
+        }
+
+        iframe {
+            width: 50%;
+            height: 450px;
+            border-radius: 20px; 
+            border: 1px solid $colorBorde;
+        }        
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contenedorBodyQuienes {
+        height: 0px;
+
+        .ContenedorQuienes {
+            margin: 0px;
+
+            .ContenedorQuienes__ParrafoVideo {
+                display: flex;
+                flex-direction: column;
+
+                div {
+                    h2 {
+                        text-align: center;
+                        font-size: 30px;
+                        width: auto; 
+                        margin: 0px;  
+                    }
+
+                    p {
+                        font-size: 22px;
+                        width: auto;
+                        text-align: center;
+                        margin-top: 0px;
+                        height: 295px; 
+                    }
+                }
+                
+                iframe {
+                    height: 229px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .contenedorBodyQuienes {
+        height: 0px;
+
+        .ContenedorQuienes {
+            margin-top: 20px;
+
+            .ContenedorQuienes__ParrafoVideo {
+                display: flex;
+                flex-direction: column;
+
+                div {
+                    h2 {
+                        text-align: center;
+                        font-size: 40px;  
+                    }                    
+                    p {
+                        width: auto;
+                        height: auto;
+                        text-align: center;
+                        font-size: 20px;        
+                        margin: 0px;
+                    }
+                    iframe {
+                        width: 440px;
+                        height: 300px;   
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .ContenedorQuienes {
+        margin-top: 20px;
+
+        .ContenedorQuienes__ParrafoVideo {
+            display: flex;
+            flex-direction: column;
+
+            div {
+                h2 {
+                    font-size: 40px;
+                    text-align: center; 
+                }
+                p {
+                    font-size: 25px;
+                    text-align: center;
+                    height: auto;
+                    margin: 0px;
+                }
+                iframe {
+                    width: 650px;
+                    height: 450px;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
