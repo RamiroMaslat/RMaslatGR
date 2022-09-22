@@ -122,6 +122,124 @@ body .contenedorBodyIndex {
     margin: 0px;
   }
 }
+.SeccionVehiculos {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.SeccionVehiculos .SeccionVehiculos__Titulo {
+  color: aliceblue;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "robot", cursive;
+  text-decoration: underline;
+}
+.SeccionVehiculos .ContenedorPublicaciones {
+  display: flex;
+  flex-direction: column;
+}
+.SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion1 .ContenedorPublicaciones__Publicacion {
+  border-radius: 10px;
+  width: 18.87rem;
+  border-color: orangered;
+}
+.SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion1 .ContenedorPublicaciones__Publicacion img {
+  border: 3px solid rgb(5, 92, 119);
+}
+.SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion1 .ContenedorPublicaciones__Publicacion p {
+  color: orangered;
+  font-family: "robot", cursive;
+}
+.SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion1 .ContenedorPublicaciones__Publicacion h3 {
+  color: orangered;
+  font-family: "robot", cursive;
+}
+.SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion2 .ContenedorPublicaciones__Publicacion {
+  border-radius: 10px;
+  width: 18.87rem;
+  border-color: orangered;
+}
+.SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion2 .ContenedorPublicaciones__Publicacion img {
+  border: 3px solid rgb(5, 92, 119);
+}
+.SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion2 .ContenedorPublicaciones__Publicacion p {
+  color: orangered;
+  font-family: "robot", cursive;
+}
+.SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion2 .ContenedorPublicaciones__Publicacion h3 {
+  color: orangered;
+  font-family: "robot", cursive;
+}
+
+@media screen and (max-width: 480px) {
+  .SeccionVehiculos {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .SeccionVehiculos .ContenedorPublicaciones {
+    display: flex;
+    flex-direction: column;
+  }
+  .SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion1 .ContenedorPublicaciones__Publicacion {
+    margin-top: 3rem;
+  }
+  .SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .SeccionVehiculos .ContenedorPublicaciones .ContenedorPublicaciones__Seccion2 .ContenedorPublicaciones__Publicacion {
+    margin-top: 3rem;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .SeccionVehiculos {
+    width: auto;
+  }
+  .SeccionVehiculos .ContenedorPublicaciones__Seccion1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .SeccionVehiculos .ContenedorPublicaciones__Seccion2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .SeccionVehiculos {
+    width: auto;
+  }
+  .SeccionVehiculos .ContenedorPublicaciones__Seccion1 {
+    display: flex;
+    gap: 0.2rem;
+  }
+  .SeccionVehiculos .ContenedorPublicaciones__Seccion1 .ContenedorPublicaciones__Publicacion img {
+    width: 238px;
+    margin-left: 10px;
+  }
+  .SeccionVehiculos .ContenedorPublicaciones__Seccion2 {
+    display: flex;
+    gap: 0.2rem;
+  }
+  .SeccionVehiculos .ContenedorPublicaciones__Seccion2 .ContenedorPublicaciones__Publicacion img {
+    width: 238px;
+    margin-left: 10px;
+  }
+}
 .header {
   display: flex;
   align-items: flex-end;

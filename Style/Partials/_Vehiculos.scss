@@ -1,0 +1,145 @@
+.SeccionVehiculos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;   
+
+    .SeccionVehiculos__Titulo {
+        color: aliceblue;
+        text-align: center;
+        font-size: 3.5rem;
+        font-family: 'robot', cursive;
+        text-decoration: underline;
+    }
+
+    .ContenedorPublicaciones {
+        display: flex;  
+        flex-direction: column;
+
+        .ContenedorPublicaciones__Seccion1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around; 
+            
+            .ContenedorPublicaciones__Publicacion {
+                border-radius: 10px;
+                width: 18.87rem;
+                border-color: $colorBorde; 
+
+                img {
+                    border: 3px solid $colorBordeSecundario;
+                }
+
+                p {
+                    color: $colorBorde;
+                    font-family: 'robot', cursive;
+                }
+
+                h3 {
+                    color: $colorBorde;
+                    font-family: 'robot', cursive;
+                }   
+            }
+        }
+
+        .ContenedorPublicaciones__Seccion2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .ContenedorPublicaciones__Publicacion {
+                border-radius: 10px;
+                width: 18.87rem;
+                border-color: $colorBorde; 
+
+                img {
+                    border: 3px solid $colorBordeSecundario;
+                }
+
+                p {
+                    color: $colorBorde;
+                    font-family: 'robot', cursive;
+                }
+
+                h3 {
+                    color: $colorBorde;
+                    font-family: 'robot', cursive;
+                }  
+            } 
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .SeccionVehiculos {
+        display: flex;
+        flex-direction: column;  
+        width: auto;  
+
+        .ContenedorPublicaciones {
+            display: flex;
+            flex-direction: column;
+
+            .ContenedorPublicaciones__Seccion1 {
+                display: flex;
+                flex-direction: column;
+
+                .ContenedorPublicaciones__Publicacion {
+                    margin-top: 3rem;
+                }
+            }
+
+            .ContenedorPublicaciones__Seccion2 {
+                display: flex;
+                flex-direction: column;
+                
+                .ContenedorPublicaciones__Publicacion {
+                    margin-top: 3rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .SeccionVehiculos {
+        width: auto;
+
+        .ContenedorPublicaciones__Seccion1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ContenedorPublicaciones__Seccion2 {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .SeccionVehiculos {
+        width: auto;
+
+        .ContenedorPublicaciones__Seccion1 {
+            display: flex;
+            gap: 0.2rem; 
+            
+            .ContenedorPublicaciones__Publicacion img {
+                width: 238px;
+                margin-left: 10px;
+            }
+        }
+        .ContenedorPublicaciones__Seccion2 {
+            display: flex;
+            gap: 0.2rem;
+
+            .ContenedorPublicaciones__Publicacion img {
+                width: 238px;
+                margin-left: 10px;
+            }
+        }   
+    }
+}
