@@ -240,6 +240,81 @@ body .contenedorBodyIndex {
     margin-left: 10px;
   }
 }
+.ContenedorForm {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 150px;
+}
+.ContenedorForm .ContenedorForm__Titulo {
+  display: flex;
+  justify-content: space-around;
+  font-size: 3.5rem;
+  text-decoration: underline;
+  font-family: "robot", cursive;
+}
+.ContenedorForm .ContenedorForm__Formulario {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.ContenedorForm .ContenedorForm__Formulario .ContenedorForm__Formulario_Fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  background-color: rgb(5, 92, 119);
+}
+.ContenedorForm .ContenedorForm__Formulario .ContenedorForm__Formulario_Fieldset legend {
+  font-size: 35px;
+}
+.ContenedorForm .ContenedorForm__Formulario .ContenedorForm__Formulario_Fieldset .ContenedorForm__Formulario_Fieldset_Label {
+  font-size: 25px;
+  text-align: left;
+}
+.ContenedorForm .ContenedorForm__Formulario .ContenedorForm__Formulario_Fieldset .ContenedorForm__Formulario_Fieldset_Input {
+  padding: 10px;
+}
+.ContenedorForm .ContenedorForm__Formulario .ContenedorForm__Formulario_Fieldset .FormButton {
+  display: flex;
+  width: 70px;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-left: 184px;
+}
+.ContenedorForm .ContenedorForm__Formulario .ContenedorForm__Formulario_Fieldset .FormButton .FormButton__Button {
+  display: flex;
+  width: 70px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Caveat", cursive;
+  color: orangered;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.ContenedorForm .ContenedorForm__Formulario .ContenedorForm__Formulario_Fieldset .FormButton .FormButton__Button:hover {
+  font-size: 23px;
+  padding: 2px;
+  width: 80px;
+  background-color: black;
+}
+
+@media screen and (max-width: 480px) {
+  .ContenedorForm__Formulario_Fieldset_Input {
+    padding: 8px;
+  }
+  .ContenedorForm__Formulario_Fieldset_Label {
+    font-size: 15px;
+  }
+  .FormButton {
+    margin: auto;
+  }
+}
 .header {
   display: flex;
   align-items: flex-end;
