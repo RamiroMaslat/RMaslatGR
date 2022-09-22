@@ -270,7 +270,7 @@ body .contenedorBodyQuienes {
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 450px;
+  height: 37.5rem;
   border-radius: 20px;
   background-color: rgb(5, 92, 119);
 }
@@ -280,16 +280,20 @@ body .contenedorBodyQuienes {
 .ContenedorForm .ContenedorForm__Formulario .ContenedorForm__Formulario_Fieldset .ContenedorForm__Formulario_Fieldset_Label {
   font-size: 25px;
   text-align: left;
+  margin-left: 2rem;
 }
 .ContenedorForm .ContenedorForm__Formulario .ContenedorForm__Formulario_Fieldset .ContenedorForm__Formulario_Fieldset_Input {
   padding: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .ContenedorForm .ContenedorForm__Formulario .ContenedorForm__Formulario_Fieldset .FormButton {
   display: flex;
   width: 70px;
   font-size: 20px;
   padding-top: 10px;
-  margin-left: 184px;
+  margin: auto;
+  margin-bottom: 4px;
 }
 .ContenedorForm .ContenedorForm__Formulario .ContenedorForm__Formulario_Fieldset .FormButton .FormButton__Button {
   display: flex;
@@ -533,7 +537,7 @@ body .contenedorBodyQuienes {
   height: 400px;
   font-family: "caveat", cursive;
   font-size: 35px;
-  margin-top: -30px;
+  margin-top: 10px;
   color: azure;
 }
 .ContenedorQuienes .ContenedorQuienes__ParrafoVideo iframe {
