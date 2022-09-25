@@ -28,16 +28,14 @@
         display: flex;
         flex-direction: column-reverse;         
         color: aliceblue; 
-        align-items: flex-end;
+        align-items: center;
         height: 26rem; 
         margin: 4rem;
 
         map {
             display: flex;
-            width: 500px;
-            margin-left: 0px;
-            margin-right: 27px;
-            margin-bottom: 18px;
+            width: 455px;
+            
 
             .gmap_canvas {
                 width: 100%;
@@ -48,8 +46,7 @@
         p {
             display: flex;            
             font-size: 35px;
-            width: 500px;
-            margin-right: 28px; 
+            width: 455px;             
             margin-top: 0px;
             margin-bottom: 0px;
             font-family: 'Caveat', cursive;
@@ -64,8 +61,7 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .SeccionPrincipal__img {
-        height: 14rem;
+    .SeccionPrincipal__img {        
         width: 28rem;
     }
 
