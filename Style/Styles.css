@@ -9,7 +9,7 @@ body .contenedorBody {
   flex-direction: column;
   margin: 0px;
   padding: 0px;
-  background-image: url(/Style/img/Fondos/fondogtrweb.jpg);
+  background-image: url(../img/Fondos/fondogtrweb.jpg);
   background-attachment: fixed;
   background-position: left center;
   background-repeat: no-repeat;
@@ -327,7 +327,7 @@ body .contenedorBodyQuienes {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  background-image: url(/Style/fondoheader.jpg);
+  background-image: url(../img/Fondos/fondoheader.jpg);
   background-size: 120rem 150%;
   background-repeat: no-repeat;
   border-bottom: 2px;
