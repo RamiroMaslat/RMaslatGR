@@ -1,2 +1,27 @@
+/*Variables*/
 $colorBorde: orangered;
 $colorBordeSecundario: rgb(5, 92, 119);
+$colorText: aliceblue;
+$backgroundColor: black;
+$colorTextNav: rgb(123, 201, 247);
+
+/*Maps*/
+$colores: (
+ colorBorde: orangered,
+ colorBordeSecundario: rgb(5, 92, 119),
+ colorText: aliceblue,
+ backgroundColor: black,
+ colorTextNav: rgb(123, 201, 247)
+);
+
+/*Extends*/
+%flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+%flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,7 +1,6 @@
-.ContenedorForm {
-    display: flex;
-    flex-direction: column;
-    color: aliceblue;
+.ContenedorForm {   
+    @extend %flexColumn;
+    color: $colorText;
     text-align: center; 
     width: 100%;
     margin-bottom: 150px;
@@ -25,7 +24,7 @@
             height: 37.5rem;
             border-radius: 20px; 
             background-color: $colorBordeSecundario; 
-            border: 3px solid black;
+            border: 3px solid $backgroundColor;
 
             legend {
                 font-size: 35px; 
@@ -63,7 +62,7 @@
                         font-size: 23px;
                         padding: 2px;
                         width: 80px;            
-                        background-color: black;
+                        background-color: $backgroundColor;
                     }
                 }
             }

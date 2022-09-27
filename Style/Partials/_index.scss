@@ -1,8 +1,5 @@
-.SeccionPrincipal {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.SeccionPrincipal {    
+    @extend %flexColumn;
     max-width: 120rem;
     margin-top: 10px;  
     grid-area: seccionIndex;
@@ -11,12 +8,11 @@
         width: 50vw;
         border-radius: 20px;
         border: 2px solid;
-        border-color: $colorBorde;
+        border-color: map-get($colores, colorBorde);
     }
 
-    .SeccionPrincipal__ParrafoImg {
-        display: flex;
-        color: white;
+    .SeccionPrincipal__ParrafoImg {        
+        color: map-get($colores, colorText);
         text-align: center;
         width: 400px;
         margin: 0px;
@@ -24,16 +20,14 @@
         font-size: .9rem;      
     }
 
-    .SeccionPrincipal__ContenedorMap {
-        display: flex;
+    .SeccionPrincipal__ContenedorMap {        
         flex-direction: column-reverse;         
-        color: aliceblue; 
+        color: $colorText; 
         align-items: center;
         height: 26rem; 
         margin: 4rem;
 
-        map {
-            display: flex;
+        map {            
             width: 455px;
             
 
@@ -43,8 +37,7 @@
             }
         }   
         
-        p {
-            display: flex;            
+        p {                       
             font-size: 35px;
             width: 455px;             
             margin-top: 0px;

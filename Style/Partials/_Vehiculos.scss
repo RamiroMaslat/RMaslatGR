@@ -4,7 +4,7 @@
     height: 100%;   
 
     .SeccionVehiculos__Titulo {
-        color: aliceblue;
+        color: $colorText;
         text-align: center;
         font-size: 3.5rem;
         font-family: 'robot', cursive;
@@ -74,8 +74,7 @@
 
 @media screen and (max-width: 480px) {
     .SeccionVehiculos {
-        display: flex;
-        flex-direction: column;  
+        @extend %flexColumn;
         width: auto;  
 
         .ContenedorPublicaciones {
@@ -109,13 +108,11 @@
         width: auto;
 
         .ContenedorPublicaciones__Seccion1 {
-            display: flex;
-            flex-direction: column;
+            @extend %flexColumn
         }
 
         .ContenedorPublicaciones__Seccion2 {
-            display: flex;
-            flex-direction: column;
+            @extend %flexColumn
         }
     }
 }
