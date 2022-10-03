@@ -25,3 +25,17 @@ $colores: (
     flex-direction: column;
     align-items: center;
 }
+
+
+/*Mixins*/
+
+@mixin size ($border, $backgroundColor) {
+    border-radius: 25px;  
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    border: $border;
+    color: $backgroundColor;
+    background-color: $backgroundColor;
+}
+

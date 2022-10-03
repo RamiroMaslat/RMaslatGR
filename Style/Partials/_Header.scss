@@ -31,15 +31,9 @@
     }
 
     .header__barraDeNavegacion_listado {
-        color: $backgroundColor;
-        background-color: $backgroundColor;      
-        padding: 10px;
-        margin: 0px;
-        text-align: center;
-        border: 2px solid;
-        border-radius: 25px;
-        border-color: $colorBorde;
-
+        
+        @include size ($border: 2px solid $colorBorde, $backgroundColor: $backgroundColor);        
+         
         li {
             display: inline;
             color: $colorBorde;  
