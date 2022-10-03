@@ -2,19 +2,9 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: black; 
-    
+    background-color: black;     
      
-    .contenedorBody {
-        display: flex;
-        flex-direction: column;
-        margin: 0px;
-        padding: 0px;
-        background-image: url(/Style/img/Fondos/fondogtrweb.jpg);
-        background-attachment: fixed;
-        background-position: left center;
-        background-repeat: no-repeat;
-    } 
+    
     .contenedorBodyIndex {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
