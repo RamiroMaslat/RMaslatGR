@@ -3,13 +3,13 @@ body {
     padding: 0px;
     box-sizing: border-box;
     background-color: black;  
-    
+
     .contenedorBody {
         display: flex;
         flex-direction: column;
         margin: 0px;
         padding: 0px;
-        background-image: url(./img/Fondos/fondogtrweb.jpg);
+        background-image: url(/Style/img/Fondos/fondogtrweb.jpg);
         background-attachment: fixed;
         background-position: left center;
         background-repeat: no-repeat;
