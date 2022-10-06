@@ -328,7 +328,7 @@ body .contenedorBodyQuienes {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  background-image: url(/Style/img/Fondos/fondoheader.jpg);
+  background-image: url(./img/Fondos/fondoheader.jpg);
   background-size: 120rem 150%;
   background-repeat: no-repeat;
   border-bottom: 2px;
