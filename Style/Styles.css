@@ -414,7 +414,7 @@ body .contenedorBodyQuienes {
     background-color: transparent;
   }
   .header .header__barraDeNavegacion .header__barraDeNavegacion_listado li a {
-    color: orangered;
+    color: white;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
